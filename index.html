@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ----Container-------- -->
+    <div class="container">
+    <!-- ----Container Music Player-------- -->
+        <div class="music-player">
+    <!-- ------Music Player -Head ------ -->
+
+            <header>
+                <div class="top-header">
+                    <p class="hour"></p>
+                    <div class="network">
+                        <p><img src="RESSOURCES/IMAGES/reseau-mobile (1).png" alt=""></p>
+                        <p class="batery"><img src="RESSOURCES/IMAGES/batterie-pleine (1).png" alt="">
+                        </p>
+                    </div>
+                </div>
+                <nav>
+                    <div class="nav-icon left">
+                        <img src="RESSOURCES/IMAGES/fleche (1).png" alt="">
+                    </div>
+                    <div class=" nav-icon btn-open">
+                        <img src="RESSOURCES/IMAGES/menu-principal.png">
+                    </div>
+                </nav>
+            </header>
+              <!-- ------Music Player -Main ------ -->
+            <main>
+                <div class=" imgbox">
+                    <img src="" class="image">
+                </div>
+                <div class="music">
+                    <p class="music-title"></p>
+                    <p class="artist"></p>
+                </div>
+                <audio src="" class="audio"></audio>
+                <div class="input-controls">
+                    <div class="curent-time">
+                        <p class="curent"></p>
+                    </div>
+                    <div class="progress">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="duration">
+                        <p class="duree"></p>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="img-controls ">
+                        <img src="RESSOURCES/IMAGES/previous.png" alt="" class="prev" title='Précedant'>
+                    </div>
+                    <div class="img-controls">
+                        <div class="playpause play"></div>
+                    </div>
+                    <div class="img-controls">
+                        <img src="RESSOURCES/IMAGES/next.png" alt="" class="next" title="Suivant">
+                    </div>
+                </div>
+                <div class="controls-icon">
+                    <div class="icon">
+                        <img src="dos.png" alt="" class="moin" title="Moins 10s">
+                    </div>
+                    <div class="icon">
+                        <div class="classer"></div>
+                    </div>
+                    <div class="icon">
+                        <img src='suivant.png' alt="" class="plus" title="Plus 10" title="Plus 10s">
+                    </div>
+                </div>
+            </main>
+              <!-- ------Music Player -main-Toggle ------ -->
+            <div class="toggle">
+                  <!-- ------Music Player Toggle-Head ------ -->
+                <div class="top-header">
+                    <p class="hour">00:00</p>
+                    <div class="network">
+                        <p><img src="RESSOURCES/IMAGES/reseau-mobile.png" alt=""></p>
+                        <p class="batery"><img src="RESSOURCES/IMAGES/batterie-pleine.png" alt="">
+                        </p>
+                    </div>
+                </div>
+                  <!-- ------Music Player -Toggle -Main ------ -->
+                <div class="toggle-main">
+                    <div class="search-controls">
+                        <label for="search"><img src="RESSOURCES/IMAGES/chercher.png" alt=""></label>
+                        <input type="search" placeholder="search " id="search">
+                    </div>
+                      <!-- ------Music Player -Toggle -Musics-Lists ------ -->
+                    <div class="music-list">
+                        <!-- <div class="music-items">
+                              <div class="music-infos">
+                                    <div class="img">
+                                        <img src="RESSOURCES/IMAGES/rema ft selena gomez.jpg" alt="">
+                                    </div>
+                                    <div class="music-name">
+                                        <p > rema ft gomez</p>
+                                        <p>calm down</p>
+                                    </div>
+                                    <div class="music-duration">
+                                      <p>3:54</p>
+                                    </div> 
+                                </div> 
+                              
+                            </div>-->
+                    </div>
+                      <!-- ------Music Player -Toggle Playing ------ -->
+                    <div class="music-now">
+                        <div class="music-items">
+                            <div class="music-infos">
+                                <div class="nowimgBox imgbox">
+                                    <img src="" alt="" class="now-img image">
+                                </div>
+                                <div class="music-name">
+                                    <p class="music-title"></p>
+                                    <p class="artist"></p>
+                                    <!-- <p > rema ft gomez</p>
+                                      <p>calm down</p> -->
+                                </div>
+
+                                <!-- <div class="bounce">
+                                    <div class="block"></div>
+                                    <div class="block"></div>
+                                    <div class="block"></div>
+                                    <div class="block"></div>
+                                </div> -->
+
+                            </div>
+                            <div class="retour">
+                                <p> <img src="RESSOURCES/IMAGES/left.png" alt=""></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+      <!-- ------scripts js ------ -->
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
